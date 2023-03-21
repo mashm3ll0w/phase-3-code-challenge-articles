@@ -1,10 +1,9 @@
 class Author
-  attr_reader:name
+  attr_reader :name
 
 
-  def initialize(name)
+  def initialize(name:)
     @name = name
-  
   end
 
 

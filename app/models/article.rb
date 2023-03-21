@@ -3,7 +3,7 @@ class Article
 
     @@all = []
 
-    def initialize(author, magazine, title)
+    def initialize(author:, magazine:, title:)
 
         if author.is_a?(Author) && magazine.is_a?(Magazine)
             @author = author
