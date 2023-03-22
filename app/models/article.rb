@@ -23,6 +23,14 @@ class Article
         @@all
     end
 
+    def author
+        @author.name
+    end
+
+    def magazine
+        "#{@magazine.name}, #{@magazine.category}"
+    end
+
     class WrongClassError < StandardError
         def message
             "Check the data types of the Author and/or Magazine"
