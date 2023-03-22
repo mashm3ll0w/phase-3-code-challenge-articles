@@ -20,5 +20,15 @@ class Magazine
     @@all
   end
 
+  def contributors
+    mag_contributors = []
+    Article.all.select do |article|
+      if article.magazine.name == @name
+        mag_contributors << article.author
+      end
+    end
+    mag_contributors.uniq
+  end
+
 
 end

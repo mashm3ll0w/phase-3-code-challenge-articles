@@ -24,7 +24,7 @@ class Article
     end
 
     def author
-        @author.name
+        @author
     end
 
     def magazine
