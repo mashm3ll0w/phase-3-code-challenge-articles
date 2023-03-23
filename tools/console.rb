@@ -13,14 +13,21 @@ author3 = Author.new(name: "Pauline")
 mag1 = Magazine.new(name: "Buzz", category: "Lifestyle")
 mag2 = Magazine.new(name: "Insyder", category: "Teens")
 mag3 = Magazine.new(name: "Saturday", category: "Adults")
+mag4 = Magazine.new(name: "Drum", category: "Lifestyle")
 
 art1 = Article.new(author: author1, magazine: mag1, title: "Sunrise")
-art5 = Article.new(author:author3, magazine: mag1, title: "Fun")
-art2 = Article.new(author: author2, magazine: mag2, title: "School")
-art3 = Article.new(author: author2, magazine: mag3, title: "Marriage")
-art4 = Article.new(author: author2, magazine: mag3, title: "Marriage")
 
-mag4 = Magazine.new(name: "Drum", category: "Lifestyle")
+art5 = Article.new(author:author3, magazine: mag1, title: "Fun")
+art6 = Article.new(author: author3, magazine: mag2, title: "Football")
+art8 = Article.new(author: author3, magazine: mag2, title: "Hockey")
+art9 = Article.new(author: author3, magazine: mag2, title: "Skiing")
+
+art2 = Article.new(author: author2, magazine: mag2, title: "School")
+art3 = Article.new(author: author2, magazine: mag3, title: "Fun Facts")
+art4 = Article.new(author: author2, magazine: mag3, title: "Racing")
+art7 = Article.new(author: author2, magazine: mag3, title: "Food")
+
+author3.add_article(magazine: mag4, title: "Glowing")
 
 
 
