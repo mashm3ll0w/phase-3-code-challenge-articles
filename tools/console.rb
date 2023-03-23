@@ -20,7 +20,7 @@ art2 = Article.new(author: author2, magazine: mag2, title: "School")
 art3 = Article.new(author: author2, magazine: mag3, title: "Marriage")
 art4 = Article.new(author: author2, magazine: mag3, title: "Marriage")
 
-
+mag4 = Magazine.new(name: "Drum", category: "Lifestyle")
 
 
 
